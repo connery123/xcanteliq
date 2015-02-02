@@ -8,14 +8,14 @@
 
     <!-- versionCode is optional and Android only -->
 
-    <name>TMDB</name>
+    <name>XCANTELIQ</name>
 
     <description>
-        TMDB
+        Xcanteliq
     </description>
 
     <author href="" email="janpetterdale@gmail.com">
-        Jan Petter DFale
+        Jan Petter Dale
     </author>
     <gap:platform name="android" />
 	
