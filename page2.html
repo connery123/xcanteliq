@@ -21,7 +21,7 @@
             },
             {
                 title: "Page B (Dogs)",
-                url  : "page2.html"
+                url  : "simple-page-b.html"
             },
             {
                 title: "Page C (Elephants)",
@@ -48,33 +48,34 @@
 
 </head>
 <body>
-<div data-role="page" id="page1">
+<div data-role="page" id="page2">
     <div data-theme="a" data-role="header">
-        <!-- The #menu is the ID of the navigation panel element -->
         <a href="#menu" data-role="button" data-theme="c" data-rel="back" data-inline="true" data-icon="bars">
             Menu
         </a>
         <h3>
-            Simple Dynamic Menu :: Page A
+            Simple Dynamic Menu :: Page B
         </h3>
     </div>
-    <!-- This is the navigation panel that opens to show the menu -->
+    <!-- This is the hidden panel that opens to show the menu -->
     <div data-role="panel" id="menu" data-display="push">
         <div class="ui-panel-inner">
             <!-- This UL is the menu, where the items will be added -->
             <!-- Make sure you don't add any <li> or any other content inside it! -->
             <ul data-role="listview" class="mainMenu"></ul>
+
         </div>
     </div>
     <!-- /panel -->
     <div data-role="content">
-        <h3>Page A (Cats)</h3>
-        This simple implementation shows the simplest possible implementation of a dynamic menu.
+        <h3>Page B (Dogs)</h3>
+        This simple implementation shows the simplest possible implementation of a dynamic menu
         <p>
-            <img src="img/cat.jpg">
+            <img src="dog.jpg">
         </p>
     </div>
 </div>
+
 
 </body>
 </html>
